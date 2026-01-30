@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlindAssist</string>
+    <string name="app_description">تطبيق مساعد للمكفوفين</string>
+    
+    <!-- Auth -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">التسجيل</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="name">الاسم</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="logout">تسجيل الخروج</string>
+    
+    <!-- Navigation -->
+    <string name="home">الرئيسية</string>
+    <string name="image_description">وصف الصور</string>
+    <string name="community">المجتمع</string>
+    <string name="profile">الملف الشخصي</string>
+    
+    <!-- Features -->
+    <string name="describe_image">وصف الصورة</string>
+    <string name="detect_objects">التعرف على الأشياء</string>
+    <string name="extract_text">استخراج النصوص</string>
+    <string name="text_to_speech">تحويل النص إلى كلام</string>
+    <string name="speech_to_text">تحويل الكلام إلى نص</string>
+    
+    <!-- Messages -->
+    <string name="loading">جاري التحميل...</string>
+    <string name="error">حدث خطأ</string>
+    <string name="success">تم بنجاح</string>
+    <string name="try_again">حاول مرة أخرى</string>
+    
+    <!-- Accessibility -->
+    <string name="accessibility_button">زر</string>
+    <string name="accessibility_image">صورة</string>
+    <string name="accessibility_text">نص</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary">#D4A574</color>
+    <color name="primary_dark">#8B6F47</color>
+    <color name="primary_light">#E8C9A0</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#FF9800</color>
+    <color name="secondary_dark">#F57C00</color>
+    <color name="secondary_light">#FFB74D</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#F5F5F5</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Divider -->
+    <color name="divider">#EEEEEE</color>
+</resources>

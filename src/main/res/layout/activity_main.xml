@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary"
+        android:gravity="center"
+        android:contentDescription="@string/app_name"
+        android:accessibilityLiveRegion="polite" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_description"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/app_description" />
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Describe Image Button -->
+            <Button
+                android:id="@+id/btn_describe_image"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/describe_image"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"
+                android:minHeight="64dp"
+                android:contentDescription="@string/describe_image"
+                android:accessibilityLiveRegion="polite" />
+
+            <!-- Detect Objects Button -->
+            <Button
+                android:id="@+id/btn_detect_objects"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/detect_objects"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"
+                android:minHeight="64dp"
+                android:contentDescription="@string/detect_objects"
+                android:accessibilityLiveRegion="polite" />
+
+            <!-- Extract Text Button -->
+            <Button
+                android:id="@+id/btn_extract_text"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/extract_text"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"
+                android:minHeight="64dp"
+                android:contentDescription="@string/extract_text"
+                android:accessibilityLiveRegion="polite" />
+
+            <!-- Text to Speech Button -->
+            <Button
+                android:id="@+id/btn_text_to_speech"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/text_to_speech"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"
+                android:minHeight="64dp"
+                android:contentDescription="@string/text_to_speech"
+                android:accessibilityLiveRegion="polite" />
+
+            <!-- Community Button -->
+            <Button
+                android:id="@+id/btn_community"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/community"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"
+                android:minHeight="64dp"
+                android:contentDescription="@string/community"
+                android:accessibilityLiveRegion="polite" />
+
+            <!-- Profile Button -->
+            <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:text="@string/profile"
+                android:textSize="18sp"
+                android:minHeight="64dp"
+                android:contentDescription="@string/profile"
+                android:accessibilityLiveRegion="polite" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Bottom Navigation -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/logout"
+            android:textSize="16sp"
+            android:minHeight="48dp"
+            android:contentDescription="@string/logout"
+            android:accessibilityLiveRegion="polite" />
+
+    </LinearLayout>
+
+</LinearLayout>
